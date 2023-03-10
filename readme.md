@@ -13,6 +13,21 @@ if you use 3.6 above.
 ![key.env](example_key.env.png)
 
 ## HOW TO USE
-Let's say you want to use the `code_explainer()` function. You
-can read the sample code in the `main.py` file.
+Let's say you want to use the `code_explainer()` function. Please
+read the sample bellow:
+
+```doctest
+# import the module/class
+from gpt_usecase import UseCaseGPT
+
+if __name__ == '__main__':
+
+    # define the UseCaseGPT()
+    usecase = UseCaseGPT()
+    # pass your code path you want to be explained as the argument in the file_path parameter
+    result = usecase.code_explainer(file_path="farhan_gpt.py")
+    # the explanation will be returned as a string
+    print(result)
+```
+
 
