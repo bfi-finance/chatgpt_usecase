@@ -1,4 +1,4 @@
-this project aims to wrapped the use cases of chat-gpt
+this project aims to wrap the use cases of chat-gpt
 into one package in order to make our life easier.
 
 this project uses Python 3.10.9, I guess it should be fine 
